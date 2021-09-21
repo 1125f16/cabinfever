@@ -10,7 +10,7 @@ COPY package.json /app/package.json
 RUN npm install
 
 # expose the port of your server
-EXPOSE 3000
+EXPOSE 3001
 
 # run app
 CMD npm start

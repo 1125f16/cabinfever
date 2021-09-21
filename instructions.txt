@@ -1,6 +1,6 @@
 # create image
 docker build -t cabinfever .
 
-# run image, host port 8018, container port 3000 
-docker run -p 8081:3000 cabinfever
+# run image, host port 3001, container port 3001
+docker run -p 3001:3001 cabinfever
 
